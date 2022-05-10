@@ -1,6 +1,6 @@
 body {
   color: $primary-text-color;
-  font-family: "Roboto", sans-serif;
+  font-family: $font;
   letter-spacing: 0.03em;
   margin: 0;
 }
@@ -17,10 +17,18 @@ header {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: $title-text-color;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
 }
-.services {
-  padding-top: 0;
-}
+
 .section-hero,
 .section-footer {
   background-color: $second-background-color;
@@ -40,15 +48,7 @@ header {
   font-weight: 700;
   letter-spacing: 0.03em;
 }
-.section__title {
-  font-size: 36px;
-  line-height: 1.17;
-  text-align: center;
-  color: $title-text-color;
-  font-weight: 700;
-  letter-spacing: 0.03em;
-  margin-bottom: 50px;
-}
+
 .features-list__title,
 .section-footer__title,
 .service-item-title {

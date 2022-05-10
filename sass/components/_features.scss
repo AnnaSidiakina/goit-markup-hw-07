@@ -6,11 +6,12 @@
 
 .features-list__item {
     margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
-.features-list__item:last-child {
-    margin-right: 0;
-}
 .features-list__picture {
     width: 70px;
     height: 70px;
