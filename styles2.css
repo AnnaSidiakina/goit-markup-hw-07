@@ -235,12 +235,12 @@ header {
 .nav-list__link:focus,
 .contact-list__link:hover,
 .contact-list__link:focus,
-.footer_list__link:hover,
-.footer_list__link:focus {
+.footer-list__link:hover,
+.footer-list__link:focus {
   color: var(--accent-color);
 }
 
-.footer_list__link {
+.footer-list__link {
   color: var(--second-accent-color);
   font-size: 14px;
   line-height: 1.71;
@@ -346,6 +346,12 @@ header {
   line-height: 1.19;
   text-align: center;
 }
+.team-list__text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  margin-top: 10px;
+}
 
 .portfolio__title {
   font-size: 18px;
@@ -354,12 +360,7 @@ header {
   margin-bottom: 4px;
 }
 
-.team-list__text {
-  font-size: 16px;
-  line-height: 1.19;
-  text-align: center;
-  margin-top: 10px;
-}
+
 
 .portfolio-text {
   font-size: 16px;

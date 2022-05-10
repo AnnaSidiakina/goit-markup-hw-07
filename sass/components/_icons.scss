@@ -1,0 +1,26 @@
+.form-subscribe__icon {
+    fill: $second-accent-color;
+    margin-left: 10px;
+}
+.contact-list__icon {
+    display: block;
+    margin-right: 10px;
+    fill: $primary-text-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-list__link:hover .contact-list__icon,
+.contact-list__link:focus .contact-list__icon {
+    fill: $accent-color;
+}
+
+.features-list__icon {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}

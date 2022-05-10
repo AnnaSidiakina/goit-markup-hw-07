@@ -1,0 +1,26 @@
+.footer-subsribe {
+    flex-grow: 1;
+    margin-left: 93px;
+}
+
+.form-subscribe {
+    display: flex;
+}
+
+.form-subscribe__label {
+    display: flex;
+    height: 50px;
+}
+
+.form-subscribe__input {
+    background-color: $second-background-color;
+    color: $second-accent-color;
+    min-width: 358px;
+    padding: 16px;
+    border-radius: 4px;
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-subscribe__input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
