@@ -1,11 +1,12 @@
-.menu,
+.header,
 .nav,
 .contact-list,
 .nav-list {
     display: flex;
 }
 
-.menu {
+.container__header {
+    display: flex;
     align-items: center;
 }
 
@@ -48,7 +49,6 @@
     }
 }
 
-.nav-list__item
 
 
 .nav-list__link:hover,

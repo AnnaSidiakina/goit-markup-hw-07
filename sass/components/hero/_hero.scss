@@ -11,8 +11,8 @@
     background-position: center;
     margin-left: auto;
     margin-right: auto;
-
-    &__title {
+}
+    .section-hero__title {
         color: $second-accent-color;
         font-weight: 900;
         font-size: 44px;
@@ -21,4 +21,4 @@
         letter-spacing: 0.06em;
         text-transform: uppercase;
     }
-}
+

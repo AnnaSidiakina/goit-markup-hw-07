@@ -2,12 +2,14 @@
 .filter {
     display: flex;
     justify-content: center;
+}
 
-    &__item {
+    .filter__item {
         margin-right: 8px;
-    }
+    
 
-    &__item:last-child {
+    &_:last-child {
         margin-right: 0;
     }
 }
+

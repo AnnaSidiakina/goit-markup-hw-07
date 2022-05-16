@@ -5,13 +5,14 @@
 
 .form-subscribe {
     display: flex;
+}
 
-    &__label {
+    .form-subscribe__label {
         display: flex;
         height: 50px;
     }
 
-    &__input {
+    .form-subscribe__input {
         background-color: $second-background-color;
         color: $second-accent-color;
         min-width: 358px;
@@ -20,10 +21,10 @@
         border-color: rgba(255, 255, 255, 0.3);
     }
 
-    &__input::placeholder {
+    .form-subscribe__input::placeholder {
         color: rgba(255, 255, 255, 0.6);
     }
-}
+
 
 
 

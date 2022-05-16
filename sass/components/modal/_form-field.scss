@@ -1,12 +1,13 @@
 .form-contact {
     padding: 32px;
-
-    &__title {
-        color: $title-text-color;
-        font-size: 20px;
-        line-height: 1.72;
-    }
 }
+
+.form-contact__title {
+    color: $title-text-color;
+    font-size: 20px;
+    line-height: 1.72;
+}
+
 
 
 .form-field {
@@ -14,22 +15,23 @@
     flex-direction: column;
     position: relative;
     margin-top: 12px;
+}
 
-    &__icon {
+    .form-field__icon {
         position: absolute;
         left: 12px;
         bottom: 11px;
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__label {
+    .form-field__label {
         color: $primary-text-color;
         font-size: 12px;
         line-height: 1.17;
         margin-bottom: 4px;
     }
 
-    &__input {
+    .form-field__input {
         border: 1px solid rgba(33, 33, 33, 0.2);
     
         border-radius: 4px;
@@ -40,31 +42,37 @@
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__comment {
+    .form-field__comment {
         min-height: 120px;
         padding: 12px 16px;
         border: 1px solid rgba(33, 33, 33, 0.2);
         
         border-radius: 4px;
         outline: none;
-    }
+    
 
-    &__comment::placeholder {
+    &::placeholder {
         color: rgba(117, 117, 117, 0.5);
         font-size: 14px;
         line-height: 1.15;
     }
+}
+.form-subscribe__icon {
+    fill: $second-accent-color;
+    margin-left: 10px;
+}
 
-    &__input:focus~&__icon,
-    &__input:not(:placeholder-shown)~&__icon {
+    .form-field__input:focus~.form-field__icon,
+    .form-field__input:not(:placeholder-shown)~.form-field__icon {
         fill: $accent-color;
     }
 
-    &__input:focus,
-    &__input:not(:placeholder-shown) {
+    .form-field__input:focus,
+    .form-field__input:not(:placeholder-shown) {
         border-color: $accent-color;
     }
-}
+    
+
 
 
 .checkbox {
@@ -72,28 +80,29 @@
     justify-content: center;
     align-items: center;
     margin-top: 20px;
+}
 
-    &__input {
+    .checkbox__input {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
         position: absolute;
     }
 
-    &__label {
+    .checkbox__label {
         color: $primary-text-color;
         font-size: 14px;
         line-height: 1.7;
     }
 
-    &__icon {
+    .checkbox__icon {
         margin-right: 7px;
         border: 2px solid $title-text-color;
         border-radius: 2px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    &__input:checked+&__icon {
+    .checkbox__input:checked+.checkbox__icon {
         background-color: $accent-color;
         background-image: url(//images/icons.svg#icon-checkbox);
         border-color: $accent-color;
@@ -101,8 +110,8 @@
         background-origin: border-box;
     }
 
-    &__link {
+    .checkbox__link {
         color: $accent-color;
         text-decoration: underline;
     }
-}
+
